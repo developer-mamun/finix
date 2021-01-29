@@ -816,3 +816,26 @@ h2.bread-crumb-nav{
     background-color: transparent;
     transform: scale(1.2);
 }
+
+/* Responsive Style CSS */
+
+@media (min-width:1400px) {
+    .banner-social {
+        left: 17%;
+    }
+}
+
+@media (max-width:1399px) {
+    .banner-social {
+        left: 6%;
+}
+
+@media (max-width:1068px) {
+    .banner-social {
+        left: 4%;
+}
+
+@media (max-width:992px) {
+    .banner-social {
+        left: 2%;
+}
